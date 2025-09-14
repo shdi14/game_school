@@ -20,7 +20,6 @@ namespace myTiles {
     export const tile9 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile2 = image.ofBuffer(hex``);
-
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "уровень0":
@@ -41,7 +40,7 @@ namespace myTiles {
 . . . . . . . 
 . . . . . . . 
 2 . . . . . 2 
-2 2 . . . 2 2 
+2 2 . . . 2 2
 `, [myTiles.transparency16,myTiles.tile1,myTiles.tile3,myTiles.tile2,myTiles.tile7,myTiles.tile8], TileScale.Sixteen);
         }
         return null;
